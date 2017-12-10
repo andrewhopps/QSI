@@ -145,15 +145,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqj-eJ-jmn">
-                                <rect key="frame" x="16" y="22" width="34" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Icon-Small"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6v-yg-auX">
-                                <rect key="frame" x="332" y="23" width="27" height="28"/>
+                                <rect key="frame" x="331" y="22" width="28" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Icon-Small-1"/>
+                                <state key="normal" image="barcode"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqj-eJ-jmn">
+                                <rect key="frame" x="16" y="22" width="30" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="refresh"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.16470588235294117" green="0.52828401329999997" blue="0.22050547600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -166,8 +166,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Icon-Small" width="29" height="29"/>
-        <image name="Icon-Small-1" width="29" height="29"/>
         <image name="TFMLogoW" width="241" height="223"/>
+        <image name="barcode" width="92" height="88"/>
+        <image name="refresh" width="73" height="64"/>
     </resources>
 </document>
