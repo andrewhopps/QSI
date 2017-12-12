@@ -135,7 +135,9 @@
                                     <tabBarItem title="Inventory" id="cMC-b8-KlS">
                                         <color key="badgeColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </tabBarItem>
-                                    <tabBarItem title="Item" id="UAG-Ts-B70"/>
+                                    <tabBarItem title="Scan" image="cambutton-2" id="UAG-Ts-B70">
+                                        <inset key="imageInsets" minX="0.0" minY="24" maxX="0.0" maxY="23"/>
+                                    </tabBarItem>
                                     <tabBarItem systemItem="more" id="lu5-lB-1YO"/>
                                 </items>
                             </tabBar>
@@ -169,6 +171,7 @@
     <resources>
         <image name="TFMLogoW" width="241" height="223"/>
         <image name="barcode" width="92" height="88"/>
+        <image name="cambutton-2" width="125" height="125"/>
         <image name="refresh" width="73" height="64"/>
     </resources>
 </document>
