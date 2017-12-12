@@ -132,9 +132,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="cMC-b8-KlS">
+                                    <tabBarItem title="Inventory" id="cMC-b8-KlS">
                                         <color key="badgeColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </tabBarItem>
+                                    <tabBarItem title="Item" id="UAG-Ts-B70"/>
                                     <tabBarItem systemItem="more" id="lu5-lB-1YO"/>
                                 </items>
                             </tabBar>
@@ -156,7 +157,7 @@
                                 <state key="normal" image="refresh"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.16470588235294117" green="0.52828401329999997" blue="0.22050547600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.1635171175" green="0.52828401329999997" blue="0.22050547600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="w8d-gO-bQ1"/>
                     </view>
                 </viewController>
